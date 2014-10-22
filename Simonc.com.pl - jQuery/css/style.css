@@ -1,0 +1,139 @@
+/* Text */
+BODY {	
+	background-image : url( "../assets/images/Background.jpg" );
+	background-repeat : repeat-x;
+	background-color : rgb(232,232,232);
+	font-family : Arial;
+	font-size : 14px;
+	color : rgb(51,51,51)}
+
+#bstart{
+	max-width:1920px;
+	max-height:1280px;
+	}
+#start{
+	margin-top:143px;
+	height:300px;
+	margin-left:15%;
+	margin-right:15%;
+	
+	}
+#tekst2{
+	position:absolute;
+	float:right;
+	margin: 105px 330px 0px 7%;
+	font-style: italic;
+	font-family: Georgia, Palatino, "Times New Roman", Times, Serif;
+	}
+#tekst{
+	position:absolute;
+	float:right;
+	margin: 105px 330px 0 63%;
+	
+	}
+#fb{
+	margin-top:105px;
+	margin-left:75%;
+	
+	}
+
+#menu_poz{
+	margin-top:68px;
+	}
+
+	
+	
+#sp_opis{
+	width:590px;
+	height:1196px;
+	margin-left:5%;
+	margin-top:3%;
+	position:absolute;
+	}	
+
+#sp_fot{
+	width:627px;
+	height:948px;
+	margin-left:699px;
+	margin-top:7%;
+	position:absolute;
+	
+	}		
+	
+#sim{
+	margin-top:530px;
+	position:absolute;
+	margin-left:5%;
+	}
+
+#net{
+	margin-top:530px;
+	position:absolute;
+	margin-left:231px;
+	}
+#lang{
+	margin-top:5px;
+	margin-left:5px;
+	text-align: right;
+	}
+#lang2{
+	margin-top:5px;
+	margin-right:25px;
+	position:absolute;
+	}
+#Logo_simonc{
+	margin-top:3px;
+	margin-left:13px;
+	position:absolute;
+	}
+#zauf{
+	margin-top:660px;
+	position:absolute;
+	margin-left:5%;
+	}
+	
+#zauf2{
+	margin-top:660px;
+	position:absolute;
+	margin-left:333px;
+	}
+#tekst_stopka{
+	position:absolute;
+	margin-top:18px;
+	font-family : Times New Roman;
+	font-size : 16px;
+	color:white;
+	margin-left:83%;
+}
+#cytat{
+	position:absolute;
+	margin-top:95px;
+	font-family : Times New Roman;
+	font-size : 16px;
+	color:white;
+	margin-left:92%;
+}
+#stopka{
+	position: absolute;
+	margin-left:0px;
+	margin-top:60%;
+	width:1920px;
+	height:170px;
+	background-image : url( "../assets/images/stopka.jpg" );
+	background-repeat : repeat-x;
+	
+}
+
+#menu {display: table; padding: 0 10px 0 !important; margin: 0 auto; overflow: hidden; font-size: 14px; background: #242424;}
+#menu li {list-style-type: none; margin: 0 auto; float: left; }
+#menu li:hover {background: #404040;}
+#menu li a {display: block; color: silver; text-decoration: none; padding: 7px 10px 7px;}
+#menu li a:hover {background: #404040; color: white;}
+#menu li li a {width: 160px;}
+#menu li ul {overflow: hidden; display: none; background: #242424;}
+#menu li:hover ul {position: absolute; padding: 0; display: block; width: 160px;}
+
+*:hover {-moz-transition: 0.3s ease-in; -webkit-transition: 0.3s ease-in; -o-transition: 0.3s ease-in; transition: 0.3s ease-in;}
+
+#menu {-moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px;}
+#menu li ul {-moz-border-radius: 0 0 3px 3px; -webkit-border-radius: 0 0 3px 3px; -o-border-radius: 0 0 3px 3px; border-radius: 0 0 3px 3px;}
