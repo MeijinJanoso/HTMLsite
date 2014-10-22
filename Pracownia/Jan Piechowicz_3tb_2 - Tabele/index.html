@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="pl"> 
+<head>
+	<title>Tabele + jQuery</title>
+	<meta charset="UTF-8" /> 
+	<meta name="author" content="Jan Piechowicz">  
+	<link rel="stylesheet" type="text/css" href="./style/site.css">
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/jqscr.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+</head>
+<body> 
+<div id="name">
+Tabele + jQuery
+</div>
+	
+	<div id="zad1">
+	</br>
+	<table border="2" cellspacing="1">
+	<tr>
+		<td colspan="2">
+			Komórka 1-1
+		</td>
+		<td>
+			Komórka 1-3
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			Komórka 2-1
+		</td>
+		<td colspan="2" rowspan="2">
+			<center>
+			<br />
+			<table cellpadding="1" border="1" width="90%">
+				<tr>
+					<td rowspan="2" colspan="2">
+						Kol 1
+					</td>
+					<td colspan="2">
+						Wiersz 2
+					</td>
+				</tr>
+				<tr>
+					<td>
+						1
+					</td>
+					<td>
+						2
+					</td>
+				</tr>
+			</table>
+			<br />
+			</center>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			Komórka 3-1
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			Komórka 4-1
+		</td>
+		<td>
+			Komórka 4-2
+		</td>
+		<td>
+			Komórka 4-3
+		</td>
+	</tr>
+	</table>
+	</div>
+	<div id="zad2">
+	<table border="4" cellspacing="2">
+	<tr>
+		<td colspan="2">
+			Komórka 1-1
+		</td>
+		<td>
+			Komórka 1-3
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			Komórka 2-1
+		</td>
+		<td colspan="2" rowspan="2">
+			
+		
+			<table cellspacing="10" width="100%" height="100%" bgcolor="oceanic">
+			<tr><td>
+
+			<center>
+			<table border="1" bgcolor="orange">
+				
+				<tr>
+					<td rowspan="2" colspan="2">
+						Kol 1
+					</td>
+					<td colspan="2">
+						Wiersz 2
+					</td>
+				</tr>
+				<tr>
+					<td>
+						1
+					</td>
+					<td>
+						2
+					</td>
+				</tr>
+
+
+			</table>						
+			</center>
+			
+			</td></tr>
+			</table>
+
+
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			Komórka 3-1
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			Komórka 4-1
+		</td>
+		<td>
+			Komórka 4-2
+		</td>
+		<td>
+			Komórka 4-3
+		</td>
+	</tr>
+	</table>
+		</div>
+	<button id="zad1b">Zadanie 1</button><button id="zad2b">Zadanie 2</button>
+	<div id="test">
+	
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+BODY {	background-image : url( "../img/Background.jpg" );
+	background-repeat : repeat-x;
+	background-color : rgb(232,232,232);
+	font-family : Arial;
+	font-size : 14px;
+	color : rgb(51,51,51);
+	}
+#zad1{
+	margin-top: 232px;
+	position:absolute;
+	font-family : Arial;
+	display:none;
+	}
+#zad2{
+	margin-top: 232px;
+	position:absolute;
+	font-family : Arial;
+	display:none;
+	}
+
+#name{
+	position:absolute;
+	margin-top: 125px;
+	height: 75px;
+	font-size : 45px;
+	font-family:Courier New;
+	color: silver;
+	
+	}
+#nagowek{
+	font-size:20px;
+	
+	}
+#zad1b{
+	margin-top: 420px;
+	position: absolute;
+	}
+
+#zad2b{
+	margin-top: 420px;
+	margin-left: 89px;
+	position: absolute;
+	}
+
